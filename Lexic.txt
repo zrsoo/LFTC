@@ -1,5 +1,5 @@
 a. Special symbols, representing:
-	- operators:			+ += - -= * *= == != = ! % %= / /= > >= < <= ++ --
+	- operators:			+ += - -= * *= == != = ! % %= / /= > >= < <= ++ -- % %= ^ ^=
 	- separators:			/$$/ () [] {} ; . " ' space
 	- reserved words: 		ptr daca altfel int char string float bul cortex citeste scrie in returneaza cattimp var struct
 
