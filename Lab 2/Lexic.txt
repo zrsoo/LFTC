@@ -37,6 +37,3 @@ c. constants
 
 	5. bul
 		<bulconst> ::= "true"|"false"
-
-	
-commit
