@@ -31,4 +31,3 @@ program ::= "int cortex () {" cmpstmt "}"
 			assignstmt ::= IDENTIFIER "=" expression
 			
 			iostmt ::= citeste'(' IDENTIFIER ')' | scrie'(' IDENTIFIER ')'
-
