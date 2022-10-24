@@ -29,5 +29,6 @@ program ::= "int cortex () {" cmpstmt "}"
 			arraydeclstmt ::= TYPE"["nr"]" IDENTIFIER
 
 			assignstmt ::= IDENTIFIER "=" expression
-				 			
+			
+			iostmt ::= citeste'(' IDENTIFIER ')' | scrie'(' IDENTIFIER ')'
 
