@@ -20,6 +20,8 @@
 --
 ^
 ^=
+%
+%=
 
 /$
 $/
@@ -39,6 +41,7 @@ daca
 altfel
 int
 char
+string
 float
 cortex
 citeste
