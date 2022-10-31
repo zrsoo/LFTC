@@ -1,0 +1,7 @@
+https://github.com/zrsoo/LFTC
+
+MySymbolTable:
+	- Uses a hash table (list of lists);
+	- hash 	- computes position based on sum of characters in the constant or identifier;
+		- if two elements hash to the same position (where there is a list), the second, third, ... element will be added to the end of the list;
+	- add 	- adds an entry to the list, or returns the position of already existing entry;
