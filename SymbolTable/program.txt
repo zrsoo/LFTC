@@ -1,0 +1,26 @@
+int cortex()
+{
+    int a;
+    int b;
+
+    citeste(a);
+    citeste(b);
+
+    int nrDivA;
+    int nrDivB;
+
+    ptr(int i = 2; i < a / 2; ++i)
+        daca(a % i == 0)
+        nrDivA += 2;
+
+    ptr(int i = 2; i < b / 2; ++i)
+        daca(b % i == 0)
+        nrDivB += 2;
+
+    daca(nrDivA == nrDivB)
+        scrie(“Adevarat”);
+    altfel
+        scrie(“Fals”);
+
+    returneaza 0;
+}
