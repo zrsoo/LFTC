@@ -6,7 +6,7 @@ int cortex()
     citeste(a);
     citeste(b);
 
-    int nrDivA;
+    int nrdiva;
     int nrDivB;
 
     ptr(int i = 2; i < a / 2; ++i)
@@ -18,9 +18,9 @@ int cortex()
         nrDivB += 2;
 
     daca(nrDivA == nrDivB)
-        scrie(“Adevarat”);
+        scrie("Adevarat");
     altfel
-        scrie(“Fals”);
+        scrie("Fals");
 
     returneaza 0;
 }

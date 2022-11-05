@@ -32,7 +32,7 @@ c. constants
 		<seq_of_characters> ::= <seq_of_characters>|<seq_of_characters><character>
 
 	4. float
-		<floatconst> ::= <nrconst>|<nrconst>.<float_seq>
+		<floatconst> ::= <nrconst>|<nrconst>.<float_seq>|.<float_seq>|+<nrconst>|+<nrconst>.<float_seq>|+.<float_seq>|-<nrconst>|-<nrconst>.<float_seq>|-.<float_seq>
 		<float_seq> ::= <digit>|<digit><float_seq>
 
 	5. bul

@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.Optional;
 
-public class MySymbolTable {
+public class MySymbolTable extends Scanner {
     static final int CONST_PRIME = 997;
 
     private ArrayList<ArrayList<Pair<Integer, String>>> hashTable;
@@ -11,6 +11,12 @@ public class MySymbolTable {
 
     public MySymbolTable(int capacity) {
         this.hashTable = new ArrayList<>(capacity);
+
+        for(int i = 0 ; i < capacity; ++i)
+        {
+            this.hashTable.add(new ArrayList<>());
+        }
+
         this.position = 0;
     }
 
@@ -60,6 +66,29 @@ public class MySymbolTable {
         list.add(wordPair);
 
         return position;
+    }
+
+    @Override
+    public String toString()
+    {
+        StringBuilder stringBuilder = new StringBuilder();
+
+        stringBuilder.append("SYMBOL TABLE / HASH TABLE:").append("\n");
+        for(ArrayList<Pair<Integer, String>> list : this.hashTable)
+        {
+            list.forEach(pair ->
+                    stringBuilder
+                            .append("(pos: ")
+                            .append(pair.getKey())
+                            .append(")")
+                            .append("  ->  ")
+                            .append("(value: ")
+                            .append(pair.getValue())
+                            .append(")")
+                            .append("\n"));
+        }
+
+        return stringBuilder.toString();
     }
 }
 

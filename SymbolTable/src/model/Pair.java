@@ -1,6 +1,6 @@
 package model;
 
-public class Pair<K, V> {
+public class Pair<K, V> extends MySymbolTable {
 
     private K key;
     private V value;

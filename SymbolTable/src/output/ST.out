@@ -1,0 +1,21 @@
+Lexical error at line 10:     int nrDivB;
+Token "nrDivB" is not a reserved word, operator, separator, identifier or constant.
+
+Lexical error at line 14:         nrDivA += 2;
+Token "nrDivA" is not a reserved word, operator, separator, identifier or constant.
+
+Lexical error at line 18:         nrDivB += 2;
+Token "nrDivB" is not a reserved word, operator, separator, identifier or constant.
+
+Lexical error at line 20:     daca(nrDivA == nrDivB)
+Token "nrDivA" is not a reserved word, operator, separator, identifier or constant.
+
+SYMBOL TABLE / HASH TABLE:
+(pos: 6)  ->  (value: 0)
+(pos: 5)  ->  (value: 2)
+(pos: 1)  ->  (value: a)
+(pos: 2)  ->  (value: b)
+(pos: 4)  ->  (value: i)
+(pos: 8)  ->  (value: "Fals")
+(pos: 3)  ->  (value: nrdiva)
+(pos: 7)  ->  (value: "Adevarat")
