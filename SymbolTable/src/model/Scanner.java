@@ -17,9 +17,6 @@ public class Scanner {
     private final static String SYMBOL_TABLE_PATH = "src\\output\\ST.out";
     private final static String PIF_PATH = "src\\output\\PIF.out";
 
-    public static final String ANSI_RED = "\u001B[31m";
-    public static final String ANSI_RESET = "\u001B[0m";
-
     private MyPIF PIF;
     private MySymbolTable symbolTable;
 
@@ -87,6 +84,7 @@ public class Scanner {
             // Scanning algorithm
             while ((line = br.readLine()) != null)
             {
+                System.out.println(lineNumber + ".) " + line);
                 String wrongToken = detect(line);
 
                 if(!wrongToken.equals(""))

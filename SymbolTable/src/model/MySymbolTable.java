@@ -3,8 +3,8 @@ package model;
 import java.util.ArrayList;
 import java.util.Optional;
 
-public class MySymbolTable extends Scanner {
-    static final int CONST_PRIME = 997;
+public class MySymbolTable{
+    private static final int CONST_PRIME = 997;
 
     private ArrayList<ArrayList<Pair<Integer, String>>> hashTable;
     private Integer position;

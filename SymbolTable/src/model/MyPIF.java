@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyPIF extends Scanner {
+public class MyPIF {
     private List<Pair<String, Integer>> entries;
 
     public MyPIF()

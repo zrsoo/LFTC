@@ -1,0 +1,20 @@
+int cortex()
+{
+	int nr;
+	citeste(nr);
+	
+	daca(nr  == 2)
+		scrie("Adevarat");
+
+	daca(nr % 2 == 0)
+		scrie("Fals");
+
+	ptr(int d = 3; d < nr / 2 ; d += 2)
+		daca(nr % d == 0)
+		{
+			scrie("Fals");
+			returneaza 0;
+		}
+
+	returneaza 0;
+}

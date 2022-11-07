@@ -1,0 +1,10 @@
+int cortex()
+{
+	string cuvant;
+	citeste(cuvant);
+
+	ptr(int i = lungime[cuvant] – 1; i >= 0; --i)
+		scrie(cuvant[i]);
+
+	returneaza 0;
+}
