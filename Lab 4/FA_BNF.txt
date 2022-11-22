@@ -1,0 +1,21 @@
+<state_set> ::= (<state_letter_set>)
+<state_letter_set> ::= <state_letter> | <state_letter_set>,<state_letter>
+<state_letter> ::= p | q | r | s | t | u | v | x | y | w | z
+
+<alphabet> ::= (<alphabet_letter_set>)
+<alphabet_letter_set> ::= <alphabet_letter> | <alphabet_letter_set>,<alphabet_letter>
+<alphabet_letter> ::= 0 | 1 | 2
+
+<transition_function_definition> ::= [<transition_function_set>]
+<transition_function_set> ::= <transition_function> | <transition_function_set>;<transition_function>
+<transition_function> ::= (<state_letter>,<alphabet_letter>,<state_letter>)
+
+<initial_state> ::= {state_letter_set}
+<final_state> ::= {<state_letter_set>}
+
+<finite_automata> ::=
+<state_set>
+<alphabet>
+<transition_function_definition>
+<initial_state>
+<final_state>
