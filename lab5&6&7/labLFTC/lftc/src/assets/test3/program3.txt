@@ -1,0 +1,11 @@
+intreg nr, sumaPare, cifra;
+citeste nr;
+sumaPare = 0;
+cat_timp (nr > 0) {
+cifra = nr%10;
+daca (cifra % 2 == 0) {
+sumaPare = sumaPare + cifra;
+} altfel {
+ nr = nr / 10;
+}
+afiseaza "suma = " + sumaPare;

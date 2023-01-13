@@ -1,0 +1,13 @@
+intreg nr, o, clonaNr;
+citeste nr;
+clonaNr = nr;
+o = 0;
+cat_timp (nr >= 0) {
+    o = o*10 + nr%10;
+    nr = nr/10;
+}
+daca (clonaNr == o) {
+    afiseaza "DA";
+} altfel  {
+    afiseaza "NU";
+}

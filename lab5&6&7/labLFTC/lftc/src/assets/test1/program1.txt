@@ -1,0 +1,8 @@
+intreg a, b;
+citeste a, b;
+10
+daca (a >= b) {
+afiseaza a;
+ } altfel  {
+afiseaza b;
+}
